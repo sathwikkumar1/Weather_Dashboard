@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.dashboard {
+  margin: 20px;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.event-planner {
+  margin-top: 20px;
+}
+
+.weather_bg{
+  background-image: url('https://img.freepik.com/free-photo/weather-effects-composition_23-2149853316.jpg?t=st=1716198881~exp=1716202481~hmac=08ab344faa29f36719e480e165684b92243cd8419f289b3d71f24058270fb5ba&w=900');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
